@@ -1,0 +1,27 @@
+{
+  "appId": "com.tech.nooriaccounts",
+  "appName": "Noori Accounts ",
+  "webDir": "www",
+  "server": {
+    "url": "https://tech.deluxestore.app/",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.jks",
+      "keystoreAlias": "upload"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0f172a",
+      "launchShowDuration": 1500,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#0f172a",
+      "style": "DARK"
+    }
+  }
+}
